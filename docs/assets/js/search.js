@@ -1,0 +1,3 @@
+﻿var typedoc = typedoc || {};
+            typedoc.search = typedoc.search || {};
+            typedoc.search.data = {"kinds":{"1":"External module","128":"Class","2048":"Method"},"rows":[{"id":0,"kind":1,"name":"\"Math\"","url":"modules/_math_.html","classes":"tsd-kind-external-module"},{"id":1,"kind":128,"name":"Math","url":"classes/_math_.math.html","classes":"tsd-kind-class tsd-parent-kind-external-module","parent":"\"Math\""},{"id":2,"kind":2048,"name":"square","url":"classes/_math_.math.html#square","classes":"tsd-kind-method tsd-parent-kind-class tsd-is-static","parent":"\"Math\".Math"}]};

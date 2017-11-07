@@ -1,0 +1,30 @@
+{
+  "name": "typescript-starter",
+  "version": "1.0.0",
+  "description": "A starter bundle for a typescript project with a karma-jasmine testing framework and typedocs generation",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start ./.config/karma.config.ts",
+    "build-docs": "typedoc --out  ./docs ./src --module commonjs"
+  },
+  "keywords": [
+    "testing",
+    "karma",
+    "jasmine",
+    "typedocs",
+    "typescript"
+  ],
+  "author": "Akshata Mohanty",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jasmine": "^2.6.3",
+    "@types/node": "^8.0.49",
+    "jasmine-core": "^2.8.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-jasmine-html-reporter": "^0.2.2",
+    "karma-typescript": "^3.0.8",
+    "typedoc": "^0.9.0",
+    "typescript": "^2.6.1"
+  }
+}
