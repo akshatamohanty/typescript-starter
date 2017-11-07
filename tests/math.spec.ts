@@ -1,4 +1,4 @@
-import { Math } from '../src/Math';
+import { SimpleMath } from '../src/Math';
 
 describe('simple-test', () => {
 
@@ -11,7 +11,7 @@ describe('simple-test', () => {
 	})
 
 	it("square", ()=>{
-		expect( Math.square(25) ).toBe(625);
+		expect( SimpleMath.square(25) ).toBe(625);
 	})
 
 
